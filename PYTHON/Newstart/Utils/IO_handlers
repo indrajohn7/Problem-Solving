@@ -1,0 +1,25 @@
+FILE OPEN:
+
+file = open("data.txt", "r/w/a/r+")
+with open("data.txt", "r/w/a/r+") as file:
+
+FILE READ:
+
+file.read()
+file.read( <num of chars> )
+file.readline() << each line read
+file.readline( < n th line from current pos> )
+file.readlines()  << all content in file
+
+<iterate through read file>
+for each_line in file:
+
+FILE WRITE:
+
+file.write( <objs / strings> )
+file.writelines( <list of objs / strings> )
+
+
+FILE CLOSE:
+
+file.close()

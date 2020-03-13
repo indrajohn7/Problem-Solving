@@ -1,0 +1,4 @@
+Case #1: AB AB
+Case #2: BÅG A A BC CA
+Case #3: CC AB
+Case #4: CBG AB AB
